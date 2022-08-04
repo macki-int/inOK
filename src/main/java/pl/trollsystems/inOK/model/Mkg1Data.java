@@ -1,12 +1,19 @@
 package pl.trollsystems.inOK.model;
 
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "mkg1_data_hex_old")
 public class Mkg1Data {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(name = "lokalizacja")
     private String place;
+    @Column(name = "serialized_data")
     private String serializedData;
     private LocalDateTime c;
     private Long ns;
@@ -17,14 +24,19 @@ public class Mkg1Data {
     private Long st3;
     private Long a1;
     private BigDecimal kx1;
+    @Column(name = "kx1_hex")
     private BigDecimal kx1Hex;
     private BigDecimal ky1;
+    @Column(name = "ky1_hex")
     private String ky1Hex;
     private BigDecimal kxo1;
+    @Column(name = "kxo1_hex")
     private String kxo1Hex;
     private BigDecimal kyo1;
+    @Column(name = "kyo1_hex")
     private String kyo1Hex;
     private BigDecimal tm1;
+    @Column(name = "tm1_hex")
     private String tm1Hex;
     private BigDecimal ox1;
     private BigDecimal oy1;
@@ -38,6 +50,7 @@ public class Mkg1Data {
     private BigDecimal kyo2;
     private String kyo2Hex;
     private BigDecimal tm2;
+    @Column(name = "tm2_hex")
     private String tm2Hex;
     private BigDecimal ox2;
     private BigDecimal oy2;
@@ -51,6 +64,7 @@ public class Mkg1Data {
     private BigDecimal kyo3;
     private String kyo3Hex;
     private BigDecimal tm3;
+    @Column(name = "tm3_hex")
     private String tm3Hex;
     private BigDecimal ox3;
     private BigDecimal oy3;
@@ -64,6 +78,7 @@ public class Mkg1Data {
     private BigDecimal kyo4;
     private String kyo4Hex;
     private BigDecimal tm4;
+    @Column(name = "tm4_hex")
     private String tm4Hex;
     private BigDecimal ox4;
     private BigDecimal oy4;
@@ -76,6 +91,7 @@ public class Mkg1Data {
     private String kxo5Hex;
     private BigDecimal kyo5;
     private String kyo5Hex;
+    @Column(name = "tm5_hex")
     private BigDecimal tm5;
     private String tm5Hex;
     private BigDecimal ox5;
@@ -90,6 +106,7 @@ public class Mkg1Data {
     private BigDecimal kyo6;
     private String kyo6Hex;
     private BigDecimal tm6;
+    @Column(name = "tm6_hex")
     private String tm6Hex;
     private BigDecimal ox6;
     private BigDecimal oy6;
@@ -103,6 +120,7 @@ public class Mkg1Data {
     private BigDecimal kyo7;
     private String kyo7Hex;
     private BigDecimal tm7;
+    @Column(name = "tm7_hex")
     private String tm7Hex;
     private BigDecimal ox7;
     private BigDecimal oy7;
@@ -116,6 +134,7 @@ public class Mkg1Data {
     private BigDecimal kyo8;
     private String kyo8Hex;
     private BigDecimal tm8;
+    @Column(name = "tm8_hex")
     private String tm8Hex;
     private BigDecimal ox8;
     private BigDecimal oy8;
@@ -129,6 +148,7 @@ public class Mkg1Data {
     private BigDecimal kyo9;
     private String kyo9Hex;
     private BigDecimal tm9;
+    @Column(name = "tm9_hex")
     private String tm9Hex;
     private BigDecimal ox9;
     private BigDecimal oy9;
@@ -142,6 +162,7 @@ public class Mkg1Data {
     private BigDecimal kyo10;
     private String kyo10Hex;
     private BigDecimal tm10;
+    @Column(name = "tm10_hex")
     private String tm10Hex;
     private BigDecimal ox10;
     private BigDecimal oy10;
@@ -155,6 +176,7 @@ public class Mkg1Data {
     private BigDecimal kyo11;
     private String kyo11Hex;
     private BigDecimal tm11;
+    @Column(name = "tm11_hex")
     private String tm11Hex;
     private BigDecimal ox11;
     private BigDecimal oy11;
@@ -168,6 +190,7 @@ public class Mkg1Data {
     private BigDecimal kyo12;
     private String kyo12Hex;
     private BigDecimal tm12;
+    @Column(name = "tm12_hex")
     private String tm12Hex;
     private BigDecimal ox12;
     private BigDecimal oy12;
@@ -181,6 +204,7 @@ public class Mkg1Data {
     private BigDecimal kyo13;
     private String kyo13Hex;
     private BigDecimal tm13;
+    @Column(name = "tm13_hex")
     private String tm13Hex;
     private BigDecimal ox13;
     private BigDecimal oy13;
@@ -194,6 +218,7 @@ public class Mkg1Data {
     private BigDecimal kyo14;
     private String kyo14Hex;
     private BigDecimal tm14;
+    @Column(name = "tm14_hex")
     private String tm14Hex;
     private BigDecimal ox14;
     private BigDecimal oy14;
@@ -207,6 +232,7 @@ public class Mkg1Data {
     private BigDecimal kyo15;
     private String kyo15Hex;
     private BigDecimal tm15;
+    @Column(name = "tm15_hex")
     private String tm15Hex;
     private BigDecimal ox15;
     private BigDecimal oy15;
@@ -220,6 +246,7 @@ public class Mkg1Data {
     private BigDecimal kyo16;
     private String kyo16Hex;
     private BigDecimal tm16;
+    @Column(name = "tm16_hex")
     private String tm16Hex;
     private BigDecimal ox16;
     private BigDecimal oy16;
@@ -233,6 +260,7 @@ public class Mkg1Data {
     private BigDecimal kyo17;
     private String kyo17Hex;
     private BigDecimal tm17;
+    @Column(name = "tm17_hex")
     private String tm17Hex;
     private BigDecimal ox17;
     private BigDecimal oy17;
@@ -246,6 +274,7 @@ public class Mkg1Data {
     private BigDecimal kyo18;
     private String kyo18Hex;
     private BigDecimal tm18;
+    @Column(name = "tm18_hex")
     private String tm18Hex;
     private BigDecimal ox18;
     private BigDecimal oy18;
@@ -259,6 +288,7 @@ public class Mkg1Data {
     private BigDecimal kyo19;
     private String kyo19Hex;
     private BigDecimal tm19;
+    @Column(name = "tm19_hex")
     private String tm19Hex;
     private BigDecimal ox19;
     private BigDecimal oy19;
@@ -266,7 +296,9 @@ public class Mkg1Data {
     private BigDecimal ti;
     private String suma;
     private String dod;
-    private String ins_ip;
+    @Column(name = "ins_ip")
+    private String insIp;
+    @Column(name = "ins_time")
     private LocalDateTime insTime;
 
 
@@ -2358,12 +2390,12 @@ public class Mkg1Data {
         this.dod = dod;
     }
 
-    public String getIns_ip() {
-        return ins_ip;
+    public String getInsIp() {
+        return insIp;
     }
 
-    public void setIns_ip(String ins_ip) {
-        this.ins_ip = ins_ip;
+    public void setInsIp(String insIp) {
+        this.insIp = insIp;
     }
 
     public LocalDateTime getInsTime() {
