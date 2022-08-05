@@ -42,12 +42,16 @@ public class Mkg1Data {
     private BigDecimal oy1;
     private Long a2;
     private BigDecimal kx2;
+    @Column(name = "kx2_hex")
     private String kx2Hex;
     private BigDecimal ky2;
+    @Column(name = "ky2_hex")
     private String ky2Hex;
     private BigDecimal kxo2;
+    @Column(name = "kxo2_hex")
     private String kxo2Hex;
     private BigDecimal kyo2;
+    @Column(name = "kyo2_hex")
     private String kyo2Hex;
     private BigDecimal tm2;
     @Column(name = "tm2_hex")
@@ -56,12 +60,16 @@ public class Mkg1Data {
     private BigDecimal oy2;
     private Long a3;
     private BigDecimal kx3;
+    @Column(name = "kx3_hex")
     private String kx3Hex;
     private BigDecimal ky3;
+    @Column(name = "ky3_hex")
     private String ky3Hex;
     private BigDecimal kxo3;
+    @Column(name = "kxo3_hex")
     private String kxo3Hex;
     private BigDecimal kyo3;
+    @Column(name = "kyo3_hex")
     private String kyo3Hex;
     private BigDecimal tm3;
     @Column(name = "tm3_hex")
@@ -70,12 +78,16 @@ public class Mkg1Data {
     private BigDecimal oy3;
     private Long a4;
     private BigDecimal kx4;
+    @Column(name = "kx4_hex")
     private String kx4Hex;
     private BigDecimal ky4;
+    @Column(name = "ky4_hex")
     private String ky4Hex;
     private BigDecimal kxo4;
+    @Column(name = "kxo4_hex")
     private String kxo4Hex;
     private BigDecimal kyo4;
+    @Column(name = "kyo4_hex")
     private String kyo4Hex;
     private BigDecimal tm4;
     @Column(name = "tm4_hex")
@@ -84,26 +96,34 @@ public class Mkg1Data {
     private BigDecimal oy4;
     private Long a5;
     private BigDecimal kx5;
+    @Column(name = "kx5_hex")
     private String kx5Hex;
     private BigDecimal ky5;
+    @Column(name = "ky5_hex")
     private String ky5Hex;
     private BigDecimal kxo5;
+    @Column(name = "kxo5_hex")
     private String kxo5Hex;
     private BigDecimal kyo5;
+    @Column(name = "kyo5_hex")
     private String kyo5Hex;
-    @Column(name = "tm5_hex")
     private BigDecimal tm5;
+    @Column(name = "tm5_hex")
     private String tm5Hex;
     private BigDecimal ox5;
     private BigDecimal oy5;
     private Long a6;
     private BigDecimal kx6;
+    @Column(name = "kx6_hex")
     private String kx6Hex;
     private BigDecimal ky6;
+    @Column(name = "ky6_hex")
     private String ky6Hex;
     private BigDecimal kxo6;
+    @Column(name = "kxo6_hex")
     private String kxo6Hex;
     private BigDecimal kyo6;
+    @Column(name = "kyo6_hex")
     private String kyo6Hex;
     private BigDecimal tm6;
     @Column(name = "tm6_hex")
@@ -112,12 +132,16 @@ public class Mkg1Data {
     private BigDecimal oy6;
     private Long a7;
     private BigDecimal kx7;
+    @Column(name = "kx7_hex")
     private String kx7Hex;
     private BigDecimal ky7;
+    @Column(name = "ky7_hex")
     private String ky7Hex;
     private BigDecimal kxo7;
+    @Column(name = "kxo7_hex")
     private String kxo7Hex;
     private BigDecimal kyo7;
+    @Column(name = "kyo7_hex")
     private String kyo7Hex;
     private BigDecimal tm7;
     @Column(name = "tm7_hex")
@@ -126,12 +150,16 @@ public class Mkg1Data {
     private BigDecimal oy7;
     private Long a8;
     private BigDecimal kx8;
+    @Column(name = "kx8_hex")
     private String kx8Hex;
     private BigDecimal ky8;
+    @Column(name = "ky8_hex")
     private String ky8Hex;
     private BigDecimal kxo8;
+    @Column(name = "kxo8_hex")
     private String kxo8Hex;
     private BigDecimal kyo8;
+    @Column(name = "kyo8_hex")
     private String kyo8Hex;
     private BigDecimal tm8;
     @Column(name = "tm8_hex")
@@ -140,12 +168,16 @@ public class Mkg1Data {
     private BigDecimal oy8;
     private Long a9;
     private BigDecimal kx9;
+    @Column(name = "kx9_hex")
     private String kx9Hex;
     private BigDecimal ky9;
+    @Column(name = "ky9_hex")
     private String ky9Hex;
     private BigDecimal kxo9;
+    @Column(name = "kxo9_hex")
     private String kxo9Hex;
     private BigDecimal kyo9;
+    @Column(name = "kyo9_hex")
     private String kyo9Hex;
     private BigDecimal tm9;
     @Column(name = "tm9_hex")
@@ -154,12 +186,16 @@ public class Mkg1Data {
     private BigDecimal oy9;
     private Long a10;
     private BigDecimal kx10;
+    @Column(name = "kx10_hex")
     private String kx10Hex;
     private BigDecimal ky10;
+    @Column(name = "ky10_hex")
     private String ky10Hex;
     private BigDecimal kxo10;
+    @Column(name = "kxo10_hex")
     private String kxo10Hex;
     private BigDecimal kyo10;
+    @Column(name = "kyo10_hex")
     private String kyo10Hex;
     private BigDecimal tm10;
     @Column(name = "tm10_hex")
@@ -168,12 +204,16 @@ public class Mkg1Data {
     private BigDecimal oy10;
     private Long a11;
     private BigDecimal kx11;
+    @Column(name = "kx11_hex")
     private String kx11Hex;
     private BigDecimal ky11;
+    @Column(name = "ky11_hex")
     private String ky11Hex;
     private BigDecimal kxo11;
+    @Column(name = "kxo11_hex")
     private String kxo11Hex;
     private BigDecimal kyo11;
+    @Column(name = "kyo11_hex")
     private String kyo11Hex;
     private BigDecimal tm11;
     @Column(name = "tm11_hex")
@@ -182,12 +222,16 @@ public class Mkg1Data {
     private BigDecimal oy11;
     private Long a12;
     private BigDecimal kx12;
+    @Column(name = "kx12_hex")
     private String kx12Hex;
     private BigDecimal ky12;
+    @Column(name = "ky12_hex")
     private String ky12Hex;
     private BigDecimal kxo12;
+    @Column(name = "kxo12_hex")
     private String kxo12Hex;
     private BigDecimal kyo12;
+    @Column(name = "kyo12_hex")
     private String kyo12Hex;
     private BigDecimal tm12;
     @Column(name = "tm12_hex")
@@ -196,12 +240,16 @@ public class Mkg1Data {
     private BigDecimal oy12;
     private Long a13;
     private BigDecimal kx13;
+    @Column(name = "kx13_hex")
     private String kx13Hex;
     private BigDecimal ky13;
+    @Column(name = "ky13_hex")
     private String ky13Hex;
     private BigDecimal kxo13;
+    @Column(name = "kxo13_hex")
     private String kxo13Hex;
     private BigDecimal kyo13;
+    @Column(name = "kyo13_hex")
     private String kyo13Hex;
     private BigDecimal tm13;
     @Column(name = "tm13_hex")
@@ -210,12 +258,16 @@ public class Mkg1Data {
     private BigDecimal oy13;
     private Long a14;
     private BigDecimal kx14;
+    @Column(name = "kx14_hex")
     private String kx14Hex;
     private BigDecimal ky14;
+    @Column(name = "ky14_hex")
     private String ky14Hex;
     private BigDecimal kxo14;
+    @Column(name = "kxo14_hex")
     private String kxo14Hex;
     private BigDecimal kyo14;
+    @Column(name = "kyo14_hex")
     private String kyo14Hex;
     private BigDecimal tm14;
     @Column(name = "tm14_hex")
@@ -224,12 +276,16 @@ public class Mkg1Data {
     private BigDecimal oy14;
     private Long a15;
     private BigDecimal kx15;
+    @Column(name = "kx15_hex")
     private String kx15Hex;
     private BigDecimal ky15;
+    @Column(name = "ky15_hex")
     private String ky15Hex;
     private BigDecimal kxo15;
+    @Column(name = "kxo15_hex")
     private String kxo15Hex;
     private BigDecimal kyo15;
+    @Column(name = "kyo15_hex")
     private String kyo15Hex;
     private BigDecimal tm15;
     @Column(name = "tm15_hex")
@@ -238,12 +294,16 @@ public class Mkg1Data {
     private BigDecimal oy15;
     private Long a16;
     private BigDecimal kx16;
+    @Column(name = "kx16_hex")
     private String kx16Hex;
     private BigDecimal ky16;
+    @Column(name = "ky16_hex")
     private String ky16Hex;
     private BigDecimal kxo16;
+    @Column(name = "kxo16_hex")
     private String kxo16Hex;
     private BigDecimal kyo16;
+    @Column(name = "kyo16_hex")
     private String kyo16Hex;
     private BigDecimal tm16;
     @Column(name = "tm16_hex")
@@ -252,12 +312,16 @@ public class Mkg1Data {
     private BigDecimal oy16;
     private Long a17;
     private BigDecimal kx17;
+    @Column(name = "kx17_hex")
     private String kx17Hex;
     private BigDecimal ky17;
+    @Column(name = "ky17_hex")
     private String ky17Hex;
     private BigDecimal kxo17;
+    @Column(name = "kxo17_hex")
     private String kxo17Hex;
     private BigDecimal kyo17;
+    @Column(name = "kyo17_hex")
     private String kyo17Hex;
     private BigDecimal tm17;
     @Column(name = "tm17_hex")
@@ -266,12 +330,16 @@ public class Mkg1Data {
     private BigDecimal oy17;
     private Long a18;
     private BigDecimal kx18;
+    @Column(name = "kx18_hex")
     private String kx18Hex;
     private BigDecimal ky18;
+    @Column(name = "ky18_hex")
     private String ky18Hex;
     private BigDecimal kxo18;
+    @Column(name = "kxo18_hex")
     private String kxo18Hex;
     private BigDecimal kyo18;
+    @Column(name = "kyo18_hex")
     private String kyo18Hex;
     private BigDecimal tm18;
     @Column(name = "tm18_hex")
@@ -280,12 +348,16 @@ public class Mkg1Data {
     private BigDecimal oy18;
     private Long a19;
     private BigDecimal kx19;
+    @Column(name = "kx19_hex")
     private String kx19Hex;
     private BigDecimal ky19;
+    @Column(name = "ky19_hex")
     private String ky19Hex;
     private BigDecimal kxo19;
+    @Column(name = "kxo19_hex")
     private String kxo19Hex;
     private BigDecimal kyo19;
+    @Column(name = "kyo19_hex")
     private String kyo19Hex;
     private BigDecimal tm19;
     @Column(name = "tm19_hex")
@@ -294,7 +366,8 @@ public class Mkg1Data {
     private BigDecimal oy19;
     private BigDecimal ci;
     private BigDecimal ti;
-    private String suma;
+    @Column(name = "suma")
+    private String sum;
     private String dod;
     @Column(name = "ins_ip")
     private String insIp;
@@ -2374,12 +2447,12 @@ public class Mkg1Data {
         this.ti = ti;
     }
 
-    public String getSuma() {
-        return suma;
+    public String getSum() {
+        return sum;
     }
 
-    public void setSuma(String suma) {
-        this.suma = suma;
+    public void setSum(String sum) {
+        this.sum = sum;
     }
 
     public String getDod() {
