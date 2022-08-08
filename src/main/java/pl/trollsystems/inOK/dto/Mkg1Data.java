@@ -4,7 +4,7 @@ package pl.trollsystems.inOK.dto;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public class Mkg1DataDTO {
+public class Mkg1Data {
     private Long id;
     private String place;
     private LocalDateTime c;
