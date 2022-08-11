@@ -23,4 +23,17 @@ public class Mkg1DataDTOMapper {
         return mkg1DataDTOList;
     }
 
+    public List<Mkg1Data> convertMkg1DataDTOToMkg1Data(List<Mkg1DataDTO> mkg1DataDTOList) {
+        if(mkg1DataDTOList == null){
+            return  null;
+        }
+
+        List<Mkg1Data> mkg1DataList = new ArrayList<Mkg1Data>(mkg1DataDTOList.size());
+
+        for (Mkg1DataDTO mkg1DataDTO : mkg1DataDTOList) {
+            mkg1DataList.add(modelMapper.map(mkg1DataDTO, Mkg1Data.class));
+        }
+        return mkg1DataList;
+    }
+
 }
