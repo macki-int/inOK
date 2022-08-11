@@ -10,7 +10,7 @@ import java.util.List;
 public class Mkg1DataDTOMapper {
     private ModelMapper modelMapper;
 
-    public List<Mkg1DataDTO> convertMkg1DataToDTO(List<Mkg1Data> mkg1DataList) {
+    public List<Mkg1DataDTO> convertMkg1DataToMkg1DataDTO(List<Mkg1Data> mkg1DataList) {
         if(mkg1DataList == null){
             return  null;
         }
