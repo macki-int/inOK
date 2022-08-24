@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "mkg1_data_hex_old")
+@Table(name = "mkg1_data_hex")
 public class Mkg1Data {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
