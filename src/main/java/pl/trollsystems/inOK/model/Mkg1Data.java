@@ -23,348 +23,483 @@ public class Mkg1Data {
     private Long st2;
     private Long st3;
     private Long a1;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx1;
     @Column(name = "kx1_hex")
-    private BigDecimal kx1Hex;
+    private String kx1Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky1;
     @Column(name = "ky1_hex")
     private String ky1Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo1;
     @Column(name = "kxo1_hex")
     private String kxo1Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo1;
     @Column(name = "kyo1_hex")
     private String kyo1Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm1;
     @Column(name = "tm1_hex")
     private String tm1Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox1;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy1;
     private Long a2;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx2;
     @Column(name = "kx2_hex")
     private String kx2Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky2;
     @Column(name = "ky2_hex")
     private String ky2Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo2;
     @Column(name = "kxo2_hex")
     private String kxo2Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo2;
     @Column(name = "kyo2_hex")
     private String kyo2Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm2;
     @Column(name = "tm2_hex")
     private String tm2Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox2;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy2;
     private Long a3;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx3;
     @Column(name = "kx3_hex")
     private String kx3Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky3;
     @Column(name = "ky3_hex")
     private String ky3Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo3;
     @Column(name = "kxo3_hex")
     private String kxo3Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo3;
     @Column(name = "kyo3_hex")
     private String kyo3Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm3;
     @Column(name = "tm3_hex")
     private String tm3Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox3;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy3;
     private Long a4;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx4;
     @Column(name = "kx4_hex")
     private String kx4Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky4;
     @Column(name = "ky4_hex")
     private String ky4Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo4;
     @Column(name = "kxo4_hex")
     private String kxo4Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo4;
     @Column(name = "kyo4_hex")
     private String kyo4Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm4;
     @Column(name = "tm4_hex")
     private String tm4Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox4;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy4;
     private Long a5;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx5;
     @Column(name = "kx5_hex")
     private String kx5Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky5;
     @Column(name = "ky5_hex")
     private String ky5Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo5;
     @Column(name = "kxo5_hex")
     private String kxo5Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo5;
     @Column(name = "kyo5_hex")
     private String kyo5Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm5;
     @Column(name = "tm5_hex")
     private String tm5Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox5;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy5;
     private Long a6;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx6;
     @Column(name = "kx6_hex")
     private String kx6Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky6;
     @Column(name = "ky6_hex")
     private String ky6Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo6;
     @Column(name = "kxo6_hex")
     private String kxo6Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo6;
     @Column(name = "kyo6_hex")
     private String kyo6Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm6;
     @Column(name = "tm6_hex")
     private String tm6Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox6;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy6;
     private Long a7;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx7;
     @Column(name = "kx7_hex")
     private String kx7Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky7;
     @Column(name = "ky7_hex")
     private String ky7Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo7;
     @Column(name = "kxo7_hex")
     private String kxo7Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo7;
     @Column(name = "kyo7_hex")
     private String kyo7Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm7;
     @Column(name = "tm7_hex")
     private String tm7Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox7;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy7;
     private Long a8;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx8;
     @Column(name = "kx8_hex")
     private String kx8Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky8;
     @Column(name = "ky8_hex")
     private String ky8Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo8;
     @Column(name = "kxo8_hex")
     private String kxo8Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo8;
     @Column(name = "kyo8_hex")
     private String kyo8Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm8;
     @Column(name = "tm8_hex")
     private String tm8Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox8;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy8;
     private Long a9;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx9;
     @Column(name = "kx9_hex")
     private String kx9Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky9;
     @Column(name = "ky9_hex")
     private String ky9Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo9;
     @Column(name = "kxo9_hex")
     private String kxo9Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo9;
     @Column(name = "kyo9_hex")
     private String kyo9Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm9;
     @Column(name = "tm9_hex")
     private String tm9Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox9;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy9;
     private Long a10;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx10;
     @Column(name = "kx10_hex")
     private String kx10Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky10;
     @Column(name = "ky10_hex")
     private String ky10Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo10;
     @Column(name = "kxo10_hex")
     private String kxo10Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo10;
     @Column(name = "kyo10_hex")
     private String kyo10Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm10;
     @Column(name = "tm10_hex")
     private String tm10Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox10;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy10;
     private Long a11;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx11;
     @Column(name = "kx11_hex")
     private String kx11Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky11;
     @Column(name = "ky11_hex")
     private String ky11Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo11;
     @Column(name = "kxo11_hex")
     private String kxo11Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo11;
     @Column(name = "kyo11_hex")
     private String kyo11Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm11;
     @Column(name = "tm11_hex")
     private String tm11Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox11;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy11;
     private Long a12;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx12;
     @Column(name = "kx12_hex")
     private String kx12Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky12;
     @Column(name = "ky12_hex")
     private String ky12Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo12;
     @Column(name = "kxo12_hex")
     private String kxo12Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo12;
     @Column(name = "kyo12_hex")
     private String kyo12Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm12;
     @Column(name = "tm12_hex")
     private String tm12Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox12;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy12;
     private Long a13;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx13;
     @Column(name = "kx13_hex")
     private String kx13Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky13;
     @Column(name = "ky13_hex")
     private String ky13Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo13;
     @Column(name = "kxo13_hex")
     private String kxo13Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo13;
     @Column(name = "kyo13_hex")
     private String kyo13Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm13;
     @Column(name = "tm13_hex")
     private String tm13Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox13;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy13;
     private Long a14;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx14;
     @Column(name = "kx14_hex")
     private String kx14Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky14;
     @Column(name = "ky14_hex")
     private String ky14Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo14;
     @Column(name = "kxo14_hex")
     private String kxo14Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo14;
     @Column(name = "kyo14_hex")
     private String kyo14Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm14;
     @Column(name = "tm14_hex")
     private String tm14Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox14;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy14;
     private Long a15;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx15;
     @Column(name = "kx15_hex")
     private String kx15Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky15;
     @Column(name = "ky15_hex")
     private String ky15Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo15;
     @Column(name = "kxo15_hex")
     private String kxo15Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo15;
     @Column(name = "kyo15_hex")
     private String kyo15Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm15;
     @Column(name = "tm15_hex")
     private String tm15Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox15;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy15;
     private Long a16;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx16;
     @Column(name = "kx16_hex")
     private String kx16Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky16;
     @Column(name = "ky16_hex")
     private String ky16Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo16;
     @Column(name = "kxo16_hex")
     private String kxo16Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo16;
     @Column(name = "kyo16_hex")
     private String kyo16Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm16;
     @Column(name = "tm16_hex")
     private String tm16Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox16;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy16;
     private Long a17;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx17;
     @Column(name = "kx17_hex")
     private String kx17Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky17;
     @Column(name = "ky17_hex")
     private String ky17Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo17;
     @Column(name = "kxo17_hex")
     private String kxo17Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo17;
     @Column(name = "kyo17_hex")
     private String kyo17Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm17;
     @Column(name = "tm17_hex")
     private String tm17Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox17;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy17;
     private Long a18;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx18;
     @Column(name = "kx18_hex")
     private String kx18Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky18;
     @Column(name = "ky18_hex")
     private String ky18Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo18;
     @Column(name = "kxo18_hex")
     private String kxo18Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo18;
     @Column(name = "kyo18_hex")
     private String kyo18Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm18;
     @Column(name = "tm18_hex")
     private String tm18Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox18;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy18;
     private Long a19;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kx19;
     @Column(name = "kx19_hex")
     private String kx19Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ky19;
     @Column(name = "ky19_hex")
     private String ky19Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kxo19;
     @Column(name = "kxo19_hex")
     private String kxo19Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal kyo19;
     @Column(name = "kyo19_hex")
     private String kyo19Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal tm19;
     @Column(name = "tm19_hex")
     private String tm19Hex;
+    @Column(precision = 10, scale = 2)
     private BigDecimal ox19;
+    @Column(precision = 10, scale = 2)
     private BigDecimal oy19;
+    @Column(precision = 16, scale = 8)
     private BigDecimal ci;
+    @Column(precision = 16, scale = 8)
     private BigDecimal ti;
     @Column(name = "suma")
     private String sum;
@@ -471,11 +606,11 @@ public class Mkg1Data {
         this.kx1 = kx1;
     }
 
-    public BigDecimal getKx1Hex() {
+    public String getKx1Hex() {
         return kx1Hex;
     }
 
-    public void setKx1Hex(BigDecimal kx1Hex) {
+    public void setKx1Hex(String kx1Hex) {
         this.kx1Hex = kx1Hex;
     }
 
