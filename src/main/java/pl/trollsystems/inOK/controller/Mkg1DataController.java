@@ -3,6 +3,7 @@ package pl.trollsystems.inOK.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pl.trollsystems.inOK.repository.Mkg1DataRepository;
@@ -22,5 +23,10 @@ public class Mkg1DataController {
 //           mkg1DataRepository.findAll();
 
         return ResponseEntity.ok().body(mkg1DataRepository.findAll());
+    }
+
+    @GetMapping("/{place}")
+    public ResponseEntity<?> findAllByPlace(@PathVariable String place){
+        return ResponseEntity.ok().body(mkg1DataRepository.findAllByPlace(place));
     }
 }
