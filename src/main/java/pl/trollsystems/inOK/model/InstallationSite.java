@@ -1,13 +1,11 @@
 package pl.trollsystems.inOK.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-public class InstallPlace {
+@Table(name = "installation_sites")
+public class InstallationSite {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
