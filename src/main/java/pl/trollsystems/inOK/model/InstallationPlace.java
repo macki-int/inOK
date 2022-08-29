@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "installation_sites")
-public class InstallationSite {
+public class InstallationPlace {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
