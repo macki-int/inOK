@@ -17,7 +17,7 @@ public class MeasurementPoint {
     private LocalDate stopMeasurement;
     @ManyToOne
     @JoinColumn(name = "installation_site_id")
-    private InstallationSite installationSite;
+    private InstallationPlace installationPlace;
 
     public Long getId() {
         return id;
@@ -67,12 +67,12 @@ public class MeasurementPoint {
         this.stopMeasurement = stopMeasurement;
     }
 
-    public InstallationSite getInstallationSite() {
-        return installationSite;
+    public InstallationPlace getInstallationSite() {
+        return installationPlace;
     }
 
-    public void setInstallationSite(InstallationSite installationSite) {
-        this.installationSite = installationSite;
+    public void setInstallationSite(InstallationPlace installationPlace) {
+        this.installationPlace = installationPlace;
     }
 
 }
