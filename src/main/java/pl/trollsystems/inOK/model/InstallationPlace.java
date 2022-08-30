@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "installation_sites")
+@Table(name = "installation_places")
 public class InstallationPlace {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
