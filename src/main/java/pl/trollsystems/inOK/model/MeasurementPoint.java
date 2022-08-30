@@ -16,7 +16,7 @@ public class MeasurementPoint {
     private LocalDate startMeasurement;
     private LocalDate stopMeasurement;
     @ManyToOne
-    @JoinColumn(name = "installation_site_id")
+    @JoinColumn(name = "installation_place_id")
     private InstallationPlace installationPlace;
 
     public Long getId() {
